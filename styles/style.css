@@ -1,0 +1,151 @@
+@import url("base.css");
+
+@import url("header.css");
+
+@import url("footer.css");
+
+@import url("modal-image.css");
+
+@import url("modal-form.css");
+
+@import url("modal-thanks.css");
+
+@import url("intro.css");
+
+@import url("useful.css");
+
+@import url("features.css");
+
+@import url("projects.css");
+
+@import url("certificates.css");
+
+@import url("partners.css");
+
+@import url("questions.css");
+
+@import url("contacts.css");
+
+@import url("service.css");
+
+:root {
+  --ff-main: Gilroy, Arial, Helvetica, sans-serif;
+  --color-white: #ffffff;
+  --color-black1: #050000;
+  --color-black2: #060606;
+  --color-black3: #0c0c0c;
+  --color-marker: #00447c;
+  --color-main: #00689b;
+  --color-main-alpha: rgba(0, 103, 155, 0.8);
+  --color-secondary: #870609;
+  --color-secondary-alpha: rgba(135, 6, 8, 0.8);
+  --color-gray: #f4f5f9;
+  --color-gray2: #e5e6ea;
+  --width-container: 1200px;
+  --time-s: .15s;
+  --time-m: .25s;
+  --time-l: .35s;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
